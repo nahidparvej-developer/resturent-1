@@ -11,9 +11,154 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- font -->
+<script src="https://kit.fontawesome.com/961dba97f1.js" crossorigin="anonymous"></script>
+
 
 </head>
-<body>
-    
+<body class="bg-white">
+       <header class="bg-[#ffedd5]">
+        <nav class="lg:p-10">
+            <div class="navbar bg-base-600">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost  lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>Menu</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Contact us</a></li> 
+                       
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost normal-case text-3xl text-[#ea580c]">FlavorFeast</a>
+                </div>
+                <div class="navbar-center hidden bg-white  lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-xl text-black">
+                    <li><a>Home</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Contact us</a></li> 
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class=" mr-10  hidden lg:block">
+                        <i class="fa-solid fa-magnifying-glass absolute ml-72 mt-4"></i> 
+                        <input class="h-10 bg-white rounded-xl w-80 pl-5" type="text" placeholder="Search here">
+                    </div>
+                  
+                  <a class="btn text-gl bg-[#ea580c] border-none text-white rounded-3xl">Sign Up</a>
+                  
+                </div>
+              </div>
+        </nav>
+
+              <div class="flex flex-col-reverse lg:flex-row justify-between items-center gap-20  lg:p-10 p-5">
+                <div>
+                  <h1 class="text-7xl text-black">Taste the difference with  our <span class="text-[#ea580c]">delicious</span> dishes</h1>
+                  <p class="mt-4 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. A labore quod tenetur <br> aperiam soluta dolores aliquid ducimus autem, ipsam laudantium impedit reprehenderit veritatis necessitatibus beatae. Au</p>
+
+                  <button class="btn bg-[#ea580c] text-white mt-5 border-none hover:bg-[#65be1c] "> See Menu </button>
+                  <button class="btn bg-[#e6a481] text-white mt-5 border-none hover:bg-[#f16316] ml-5"> Book A Table </button>
+                </div>
+                
+                <div>
+                  <img  src="images/banner-removebg-preview.png" alt="" class=" lg:shadow-xl lg:bg-[#ea580c] lg:rounded-full  ">
+                </div>
+              </div>
+
+       </header>
+
+       <main>
+           <section>
+            <img src="images/pngtree-tomato-red-gourmet-vegetables-png-image_3369389-removebg-preview.png" alt="" class="w-56 mt-10 ml-20">
+            <div>
+              <h1 class="text-5xl text-center mt-">Favorite <span class="text-[#ea580c]">Meals</span></h1>
+            </div>
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:ml-32 mt-20">
+          <div class="card w-96 bg-base-400 shadow-2xl">
+            <figure class="px-10 pt-10">
+              <img src="images/burger-removebg-preview.png" alt="Shoes" class="rounded-xl" />
+            
+            </figure>
+            <div class="card-body items-center text-center">
+            <div class="flex items-center gap-40">
+              <h2 class="card-title text-xl text-black">CheseBurger</h2>
+              <div class="rating rating-xs">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions items-center gap-40 mt-5">
+                <p class="text-2xl text-[#ea580c]">$150</p>
+                <button class="btn bg-[#ea580c] text-white mt-5 border-none hover:bg-[#65be1c] "> See Menu </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-400 shadow-2xl">
+            <figure class="px-10 pt-10">
+              <img src="images/burger-removebg-preview.png" alt="Shoes" class="rounded-xl" />
+            
+            </figure>
+            <div class="card-body items-center text-center">
+            <div class="flex items-center gap-40">
+              <h2 class="card-title text-xl text-black">CheseBurger</h2>
+              <div class="rating rating-xs">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions items-center gap-40 mt-5">
+                <p class="text-2xl text-[#ea580c]">$150</p>
+                <button class="btn bg-[#ea580c] text-white mt-5 border-none hover:bg-[#65be1c] "> See Menu </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-400 shadow-2xl">
+            <figure class="px-10 pt-10">
+              <img src="images/burger-removebg-preview.png" alt="Shoes" class="rounded-xl" />
+            
+            </figure>
+            <div class="card-body items-center text-center">
+            <div class="flex items-center gap-40">
+              <h2 class="card-title text-xl text-black">CheseBurger</h2>
+              <div class="rating rating-xs">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions items-center gap-40 mt-5">
+                <p class="text-2xl text-[#ea580c]">$150</p>
+                <button class="btn bg-[#ea580c] text-white mt-5 border-none hover:bg-[#65be1c] "> See Menu </button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+   
+
+     
+       
+
+
+        
+           </section>
+       </main>
+
+       <footer>
+
+       </footer>
 </body>
 </html>
